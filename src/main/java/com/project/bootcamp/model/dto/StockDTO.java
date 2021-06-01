@@ -27,6 +27,17 @@ public class StockDTO {
     @Digits(integer = 3, fraction = 2)
     private Double variation;
 
+    @NotNull
+    private String description;
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
     public Long getId() {
         return id;
     }

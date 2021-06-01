@@ -24,6 +24,17 @@ public class Stock {
     @Column(name = "date")
     private LocalDate date;
 
+    @Column(name = "description")
+    private String description;
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
     public Long getId() {
         return id;
     }

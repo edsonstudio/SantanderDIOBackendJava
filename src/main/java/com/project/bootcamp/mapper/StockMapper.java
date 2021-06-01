@@ -17,6 +17,7 @@ public class StockMapper {
         stock.setPrice(dto.getPrice());
         stock.setVariation(dto.getVariation());
         stock.setDate(dto.getDate());
+        stock.setDescription(dto.getDescription());
         return stock;
     }
 
@@ -27,6 +28,7 @@ public class StockMapper {
         dto.setPrice(stock.getPrice());
         dto.setVariation(stock.getVariation());
         dto.setDate(stock.getDate());
+        dto.setDescription(stock.getDescription());
         return dto;
     }
 
