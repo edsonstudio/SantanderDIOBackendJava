@@ -1,6 +1,12 @@
 # Santander D.I.O. - Backend em Java
 Santander Dev Week - Java + Angular - Criação de uma API usando Spring Boot (Spring Web)
 
+Demo: http://bootcamp-java-santander.herokuapp.com/bootcamp/swagger-ui/index.html?configUrl=/bootcamp/v3/api-docs/swagger-config#
+
+### Youtube Video Preview:
+[![Preview image](https://img.youtube.com/vi/VXpUx4vMqD0/0.jpg)](https://www.youtube.com/watch?v=VXpUx4vMqD0)
+
+
 
 # Getting Started
 
